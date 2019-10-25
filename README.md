@@ -10,3 +10,6 @@ Refer this link:https://www.lifewire.com/use-rand-function-to-create-random-numb
 
 Python - File I/O Operations
 Refer this link:https://www.tutorialsteacher.com/python/python-read-write-file
+
+Convert csv to json with Python
+Refer this link:http://www.shanegibney.com/shanegibney/convert-csv-to-json-with-python/
