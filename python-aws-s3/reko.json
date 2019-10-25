@@ -1,0 +1,57 @@
+[
+  {'ResponseMetadata':
+     {
+       'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '65984dd5-3850-11e9-a423-d337461106f2', 'HTTPHeaders':
+        {'date': 'Sun, 24 Feb 2019 16:22:36 GMT', 'x-amzn-requestid': '65984dd5-3850-11e9-a423-d337461106f2', 'content-length': '864', 'content-type': 'application/x-amz-json-1.1', 'connection': 'keep-alive'
+        }
+     },
+     'UnmatchedFaces':
+     [
+         {u'BoundingBox':
+           {u'Width': 0.18750852346420288, u'Top': -0.03165222331881523, u'Left': 0.3775215744972229, u'Height': 0.4766658544540405
+           },u'Confidence': 99.99983215332031,
+            u'Pose':
+           {u'Yaw': 6.305626392364502, u'Roll': -15.12633228302002, u'Pitch': 4.108588695526123
+           },
+           u'Quality':
+           {u'Sharpness': 73.32209777832031, u'Brightness': 49.618385314941406
+           },
+           u'Landmarks':
+           [
+                {u'Y': 0.17000553011894226, u'X': 0.43893179297447205, u'Type': u'eyeLeft'},
+                {u'Y': 0.13219331204891205, u'X': 0.5175022482872009, u'Type': u'eyeRight'},
+                {u'Y': 0.334205687046051, u'X': 0.4711642563343048, u'Type': u'mouthLeft'},
+                {u'Y': 0.30322957038879395, u'X': 0.5355989336967468, u'Type': u'mouthRight'},
+                {u'Y': 0.23304294049739838, u'X': 0.49439892172813416, u'Type': u'nose'}
+            ]
+          }
+      ],
+      'FaceMatches':
+      [
+        {u'Face':
+          {u'BoundingBox':
+            {u'Width': 0.18750852346420288, u'Top': -0.03165222331881523, u'Left': 0.3775215744972229, u'Height': 0.4766658544540405},
+          'Confidence': 99.99983215332031,
+          'Pose':
+            {u'Yaw': 6.305626392364502, u'Roll': -15.12633228302002, u'Pitch': 4.108588695526123},
+          'Quality':
+            {u'Sharpness': 73.32209777832031, u'Brightness': 49.618385314941406},
+          'Landmarks':
+          [
+            {u'Y': 0.17000553011894226, u'X': 0.43893179297447205, u'Type': u'eyeLeft'},
+            {u'Y': 0.13219331204891205, u'X': 0.5175022482872009, u'Type': u'eyeRight'},
+            {u'Y': 0.334205687046051, u'X': 0.4711642563343048, u'Type': u'mouthLeft'},
+            {u'Y': 0.30322957038879395, u'X': 0.5355989336967468, u'Type': u'mouthRight'},
+            {u'Y': 0.23304294049739838, u'X': 0.49439892172813416, u'Type': u'nose'}
+          ]
+        },
+        'Similarity': 99.68085479736328}],
+      'SourceImageFace':
+      {
+        'BoundingBox':
+        {
+             u'Width': 0.3553473651409149, u'Top': 0.3211694657802582, u'Left': 0.36664682626724243, u'Height': 0.34396928548812866},
+            u'Confidence': 100.0}
+  },
+         {'ResponseMetadata':
+           {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '6602f661-3850-11e9-941d-25f2bdcc2b55', 'HTTPHeaders': {'date': 'Sun, 24 Feb 2019 16:22:37 GMT', 'x-amzn-requestid': '6602f661-3850-11e9-941d-25f2bdcc2b55', 'content-length': '913', 'content-type': 'application/x-amz-json-1.1', 'connection': 'keep-alive'}}, u'UnmatchedFaces': [], u'FaceMatches': [{u'Face': {u'BoundingBox': {u'Width': 0.18750852346420288, u'Top': -0.03165222331881523, u'Left': 0.3775215744972229, u'Height': 0.4766658544540405}, u'Confidence': 99.99983215332031, u'Pose': {u'Yaw': 6.305626392364502, u'Roll': -15.12633228302002, u'Pitch': 4.108588695526123}, u'Quality': {u'Sharpness': 73.32209777832031, u'Brightness': 49.618385314941406}, u'Landmarks': [{u'Y': 0.17000553011894226, u'X': 0.43893179297447205, u'Type': u'eyeLeft'}, {u'Y': 0.13219331204891205, u'X': 0.5175022482872009, u'Type': u'eyeRight'}, {u'Y': 0.334205687046051, u'X': 0.4711642563343048, u'Type': u'mouthLeft'}, {u'Y': 0.30322957038879395, u'X': 0.5355989336967468, u'Type': u'mouthRight'}, {u'Y': 0.23304294049739838, u'X': 0.49439892172813416, u'Type': u'nose'}]}, u'Similarity': 99.68085479736328}], u'SourceImageFace': {u'BoundingBox': {u'Width': 0.327808678150177, u'Top': 0.17243161797523499, u'Left': 0.3716031014919281, u'Height': 0.5030374526977539}, u'Confidence': 99.9983901977539}}, {'ResponseMetadata': {'RetryAttempts': 0, 'HTTPStatusCode': 200, 'RequestId': '66948806-3850-11e9-941d-25f2bdcc2b55', 'HTTPHeaders': {'date': 'Sun, 24 Feb 2019 16:22:38 GMT', 'x-amzn-requestid': '66948806-3850-11e9-941d-25f2bdcc2b55', 'content-length': '875', 'content-type': 'application/x-amz-json-1.1', 'connection': 'keep-alive'}}, u'UnmatchedFaces': [{u'BoundingBox': {u'Width': 0.18750852346420288, u'Top': -0.03165222331881523, u'Left': 0.3775215744972229, u'Height': 0.4766658544540405}, u'Confidence': 99.99983215332031, u'Pose': {u'Yaw': 6.305626392364502, u'Roll': -15.12633228302002, u'Pitch': 4.108588695526123}, u'Quality': {u'Sharpness': 73.32209777832031, u'Brightness': 49.618385314941406}, u'Landmarks': [{u'Y': 0.17000553011894226, u'X': 0.43893179297447205, u'Type': u'eyeLeft'}, {u'Y': 0.13219331204891205, u'X': 0.5175022482872009, u'Type': u'eyeRight'}, {u'Y': 0.334205687046051, u'X': 0.4711642563343048, u'Type': u'mouthLeft'}, {u'Y': 0.30322957038879395, u'X': 0.5355989336967468, u'Type': u'mouthRight'}, {u'Y': 0.23304294049739838, u'X': 0.49439892172813416, u'Type': u'nose'}]}], u'FaceMatches': [], u'SourceImageFace': {u'BoundingBox': {u'Width': 0.2889767587184906, u'Top': 0.17514556646347046, u'Left': 0.3652454614639282, u'Height': 0.5334912538528442}, u'Confidence': 99.99998474121094}}]
