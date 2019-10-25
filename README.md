@@ -7,3 +7,6 @@ Refer this link: https://pimylifeup.com/raspberry-pi-mysql/
 
 Generate Random values in Excel
 Refer this link:https://www.lifewire.com/use-rand-function-to-create-random-numbers-in-excel-4178642
+
+Python - File I/O Operations
+Refer this link:https://www.tutorialsteacher.com/python/python-read-write-file
