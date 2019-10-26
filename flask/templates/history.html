@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+     Charts
+  </title>
+  <script src="/static/js/Chart.min.js"></script>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="/"><img src="static/images/cloud.png" style=" width: 25%" >&nbsp;G-IoT</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/stock">Stock</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/history">History<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script type="text/javascript">
+       var weeks = {{weeks|safe}};
+        var data1 = {{data1|safe}};
+        var data2 = {{data2|safe}};
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var chart = new Chart(ctx,{
+        type:'line',
+        data: {
+            labels: weeks,
+            datasets: [{
+                label: 'Temperature',
+                borderColor: "#3e95cd",
+                pointBackgroundColor: "black",
+                data: data1
+
+            },
+                {
+                    label: 'Humidity',
+                    borderColor: "#8e5ea2",
+                    pointBackgroundColor: "black",
+                    data: data2
+                }]
+        },
+        options: {
+            title: {
+                display: true,
+                text: 'Temperature and Humidity of the warehouse'
+            },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+    });
+  </script>
+</body>
+</html>
